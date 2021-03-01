@@ -1,10 +1,10 @@
 <?php
 
-namespace jotapepinheiro\LaravelRoles\Traits;
+namespace sanju\LaravelRoles\Traits;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use jotapepinheiro\LaravelRoles\Models\Permission;
+use sanju\LaravelRoles\Models\Permission;
 
 trait RoleHasRelations
 {

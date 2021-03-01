@@ -1,11 +1,11 @@
 <?php
 
-namespace jotapepinheiro\LaravelRoles\Models;
+namespace sanju\LaravelRoles\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use jotapepinheiro\LaravelRoles\Contracts\PermissionHasRelations as PermissionHasRelationsContract;
-use jotapepinheiro\LaravelRoles\Traits\PermissionHasRelations;
-use jotapepinheiro\LaravelRoles\Traits\Slugable;
+use sanju\LaravelRoles\Contracts\PermissionHasRelations as PermissionHasRelationsContract;
+use sanju\LaravelRoles\Traits\PermissionHasRelations;
+use sanju\LaravelRoles\Traits\Slugable;
 
 class Permission extends Model implements PermissionHasRelationsContract
 {

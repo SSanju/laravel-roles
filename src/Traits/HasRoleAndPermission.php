@@ -1,6 +1,6 @@
 <?php
 
-namespace jotapepinheiro\LaravelRoles\Traits;
+namespace sanju\LaravelRoles\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
-use jotapepinheiro\LaravelRoles\Models\Permission;
-use jotapepinheiro\LaravelRoles\Models\Role;
+use sanju\LaravelRoles\Models\Permission;
+use sanju\LaravelRoles\Models\Role;
 
 trait HasRoleAndPermission
 {
@@ -157,7 +157,7 @@ trait HasRoleAndPermission
     /**
      * Sync roles for a user.
      *
-     * @param array|\jotapepinheiro\LaravelRoles\Models\Role[]|\Illuminate\Database\Eloquent\Collection $roles
+     * @param array|\sanju\LaravelRoles\Models\Role[]|\Illuminate\Database\Eloquent\Collection $roles
      * @return array
      */
     public function syncRoles($roles)
@@ -371,7 +371,7 @@ trait HasRoleAndPermission
     /**
      * Sync permissions for a user.
      *
-     * @param array|\jotapepinheiro\LaravelRoles\Models\Permission[]|\Illuminate\Database\Eloquent\Collection $permissions
+     * @param array|\sanju\LaravelRoles\Models\Permission[]|\Illuminate\Database\Eloquent\Collection $permissions
      * @return array
      */
     public function syncPermissions($permissions)

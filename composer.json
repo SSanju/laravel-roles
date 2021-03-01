@@ -10,7 +10,7 @@
     },
     "autoload": {
     "psr-4": {
-      "jotapepinheiro\\LaravelRoles\\": "src/"
+      "sanju\\LaravelRoles\\": "src/"
     }
   }
 }
