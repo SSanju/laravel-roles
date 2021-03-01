@@ -1,6 +1,6 @@
-# Roles And Permissions For Laravel 5.4
+# Roles And Permissions For Laravel 8.12
 
-A Powerful package for handling roles and permissions in Laravel 5.4
+A Powerful package for handling roles and permissions in Laravel 8.12
 This package is an adaptation of [romanbican/roles](https://github.com/romanbican/roles) and [ultraware/roles](https://github.com/ultraware/roles/).
 
 - [Installation](#installation)
